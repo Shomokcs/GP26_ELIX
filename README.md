@@ -56,16 +56,16 @@ The repository is structured into three core components corresponding to the cod
 ---
 
 ## 👥 Project Members
+* Shomok Eidhah Althobaiti
+* Boshra Sultan Alwgdani
 * Sarah Hassan Alzahrani
 * Wasan Abdulaziz Alkhaldi
 * Enas Mohammed Alshehri
-* Sara Abdullah Alosaimi
-* Rama Abdulmoain Altalhi
 * Lujain Fayez Alotaibi
-* Boshra Sultan Alwgdani
-* Majd Daifallah Althaqfi
-* Shomok Eidhah Althobaiti
+* Sara Abdullah Alosaimi
 * Ghala Safir Aljuaid
+* Rama Abdulmoain Altalhi
+* Majd Daifallah Althaqfi
 * Salwa Khaled Alkhamash
 
 **Supervised by:** Dr. Nawal Al-Sufyani  
