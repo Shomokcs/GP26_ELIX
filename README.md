@@ -18,18 +18,18 @@ The framework utilizes ECG images from the **Mendeley Dataset (Cardiac Patients 
 
 The repository is structured into three core components corresponding to the code files:
 
-### 1. MobileNetV3 Pipeline (`mobilenet_v3_pipeline.py`)
+### 1. MobileNet
 - **Role**: Lightweight CNN model used as part of the core diagnostic system.
 - **Mechanism**: The ECG image is split into 4 spatial patches (resized to 224x224). MobileNetV3-Small extracts a 576-dimensional feature vector per patch, which are then concatenated into a 2304-dimensional vector for final classification.
 - **Training**: Trained for 5 epochs with a learning rate of 0.0001.
 
-### 2. Swin-Tiny Pipeline (`swin_tiny_pipeline.py`)
+### 2. Swin-Tiny 
 - **Role**: Vision Transformer (ViT) model optimized for localized feature extraction from ECG patches.
 - **Mechanism**: Processes each of the 4 patches independently to output logit vectors, which are then averaged for the final prediction.
 - **Green AI Optimization**: Post-training **Dynamic Quantization** is applied to the linear layers, reducing the model size drastically from **110 MB to 28 MB**, significantly lowering inference latency and resource costs.
 - **Training**: Trained for 10 epochs.
 
-### 3. ELIX Main Fusion Framework (`elix_main_fusion.py`)
+### 3. ELIX Main Fusion Framework
 - **Role**: The main integration hub that orchestrates the ensemble and explainability.
 - **Max Score Fusion**: Combines the probability scores of both MobileNetV3 and the quantized Swin-Tiny without requiring additional training. The final decision is driven by whichever model yields the highest probability score.
 - **Decision Tracking & XAI**: 
