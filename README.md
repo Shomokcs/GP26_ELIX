@@ -48,7 +48,7 @@ The repository is structured into three core components corresponding to the cod
 ---
 ## 📺 Project Demo
 
-[![Watch Demo](https://img.shields.io/badge/🎥_Watch_ELIX_Demo-Click_Here-blue?style=for-the-badge)](https://drive.google.com/drive/u/1/folders/1zArc5fOtYXeH6y0NrDio6VXFfUZ_wjiM)
+[![Watch Demo](https://img.shields.io/badge/🎥_Watch_ELIX_Demo-Click_Here-blue?style=for-the-badge)](https://drive.google.com/drive/u/1/home)
 
 ## 🔧 Preprocessing Steps Included
 1. **Boundary Cropping & Text Removal** (Noise reduction).
