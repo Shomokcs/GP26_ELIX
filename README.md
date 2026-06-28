@@ -46,6 +46,9 @@ The repository is structured into three core components corresponding to the cod
 - **Model Efficiency**: Reduced Swin-Tiny size by ~74.5% (110MB ➔ 28MB) via dynamic quantization, proving its readiness for resource-constrained clinical settings or telemedicine.
 
 ---
+## 📺 Project Demo
+
+[![Watch Demo](https://img.shields.io/badge/🎥_Watch_ELIX_Demo-Click_Here-blue?style=for-the-badge)](https://drive.google.com/drive/u/1/folders/1zArc5fOtYXeH6y0NrDio6VXFfUZ_wjiM)
 
 ## 🔧 Preprocessing Steps Included
 1. **Boundary Cropping & Text Removal** (Noise reduction).
